@@ -35,3 +35,9 @@ h2 {
     text-align: center;
 }
 
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
