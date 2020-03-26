@@ -1,6 +1,10 @@
 /* find difference between html body and * */
 /* find what float does previous lecture or research*/
 /* what does a stand for in html */
+/* what is href" */
+/* what is ul --> unordered or ordered? what does unordered mean? */
+/* how does percentage work with padding, boarder, pixel on width/length -- Video favorte meals section one says percentage based on parent??? */
+/* how does float work */
 
 /* -----------------------------------------*/
 /* BASIC SETUP */
@@ -210,4 +214,34 @@ header {
 .main-nav li a:hover,
 .mian-nav li a:active {
     border-bottom: 2px solid #e67e22
+}
+
+/* -----------------------------------------*/
+/* MEALS */
+/* -----------------------------------------*/
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
 }
