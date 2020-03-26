@@ -7,6 +7,7 @@
 /* how does float work */
 /* pseudo-class */
 /* display: inline-block?? */
+/* clear float? */
 
 /* -----------------------------------------*/
 /* BASIC SETUP */
@@ -27,6 +28,15 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
 }
 
 /* -----------------------------------------*/
@@ -271,6 +281,11 @@ header {
 /* -----------------------------------------*/
 /* HOW IT WORKS */
 /* -----------------------------------------*/
+
+
+.section-steps {
+    background-color: #f4f4f4;
+}
 
 .steps-box {
     /* margin-top: 30px; TEST THIS*/
