@@ -8,6 +8,7 @@
 /* pseudo-class */
 /* display: inline-block?? */
 /* clear float? */
+/* linear gradient vs just senting background dark*/
 
 /* -----------------------------------------*/
 /* BASIC SETUP */
@@ -217,6 +218,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed
     
 }
 
@@ -386,4 +388,45 @@ header {
 
 .city-features {
     margin-bottom: 5px;
+}
+
+/* -----------------------------------------*/
+/* CITIES */
+/* -----------------------------------------*/
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+blockquote {
+    padding: 2%;
+    font-size: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+cite {
+    font-size:90%;
+    margin-top: 25%;
+    display: block;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
