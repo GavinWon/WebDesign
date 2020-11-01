@@ -1,2 +1,2 @@
 # WebDesign
-A repo for web design
+Playground for Web Design Projects using HTML/CSS/JS
